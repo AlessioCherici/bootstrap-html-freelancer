@@ -14,12 +14,12 @@
 
     <header class="header-color container-fluid">
         <div class="row justify-content-between">
-            <div class="col-1 text-start fw-bold mx-4 mt-3">
+            <div class="col-2 text-start fw-bold mx-4 mt-3">
                 <a href="https://portfolio.com">
                     <p>Portfolio</p>
                 </a>
             </div>
-            <div class="col-1 text-end fw-bold mx-4 mt-3">
+            <div class="col-2 text-end fw-bold mx-4 mt-3">
                 <a href="https://Contacts.com">
                     <p>CONTACT ME</p>
                 </a>
@@ -50,7 +50,7 @@
         <!--card-1-->
         <div class="container-fluid">
             <div class="row mx-5">
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card mb-5 border">
                         <img class="card-img-top img-fluid" src="img/portfolio/cabin.png" alt="Casetta">
                         <div class="card-body pb-0">
@@ -67,7 +67,7 @@
 
                 <!--card-2-->
 
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card mb-5 border">
                         <img class="card-img-top img-fluid" src="img/portfolio/cake.png" alt="Torta">
                         <div class="card-body pb-0">
@@ -84,7 +84,7 @@
                 <!--card-3-->
 
 
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card mb-5 border">
                         <img class="card-img-top img-fluid" src="img/portfolio/circus.png" alt="Circo">
                         <div class="card-body pb-0">
@@ -101,7 +101,7 @@
                 <!--card-4-->
 
 
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card mb-5 border">
                         <img class="card-img-top img-fluid" src="img/portfolio/game.png" alt="Gaming">
                         <div class="card-body pb-0">
@@ -118,7 +118,7 @@
                 <!--card-5-->
 
 
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card mb-5 border">
                         <img class="card-img-top img-fluid" src="img/portfolio/safe.png" alt="Cassaforte">
                         <div class="card-body pb-0">
@@ -135,7 +135,7 @@
                 <!--card-6-->
 
 
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card mb-5 border">
                         <img class="card-img-top img-fluid" src="img/portfolio/submarine.png" alt="Sottomarino">
                         <div class="card-body pb-0">
@@ -169,32 +169,36 @@
                 <input type="number" class="form-control" id="inputHours">
             </div>
             <div class="col-md-6">
-                <label for="inputEmail4" class="form-label">Email</label>
-                <select class="form-select" aria-label="Default select example">
+                <label for="text" class="form-label">Type of work</label>
+                <select class="form-select">
                     <option selected>Open this select menu</option>
                     <option value="1">Front-End Development</option>
                     <option value="2">Back-End Development</option>
-                    <option value="3"></option>
+                    <option value="3">Project Analisys</option>
                 </select>
             </div>
             <div class="col-md-6">
-                <label for="inputPassword4" class="form-label">Password</label>
-                <input type="password" class="form-control" id="inputPassword4">
+                <label for="input" class="form-label">Discount Code</label>
+                <input type="text" class="form-control" id="InputDiscount">
             </div>
             <div>
                 <label for="input" class="form-label">Leave your message!</label>
-                <input type="text" id="Message-input" class="form-control" aria-describedby="Message-input">
+                <textarea class="form-control" placeholder="Leave your message Here" id="floatingTextarea2"
+                    rows="5"></textarea>
             </div>
 
             </div>
-            <div class="col-12">
-                <button type="submit" class="btn btn-primary">Sign in</button>
+            <div class="col-12 text-center">
+                <button type="submit" class="btn btn-warning">Sign in</button>
             </div>
+            <p class="fs-4 fw-bold">Il prezzo finale e' di:153.75</p>
         </form>
     </footer>
 
-
-
+    <div class="bg-dark text-center text-white-50">
+        <p class="py-4 fs-5">LOCATION</p>
+        <p class="mb-0 pb-4 fs-6">2215 John Daniel Drive <br> Clark, MO 65243</p>
+    </div>
 
 </body>
 
